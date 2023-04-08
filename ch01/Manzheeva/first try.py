@@ -3,7 +3,6 @@ def searching_for_account(accounts, number):
         if user['number'] == number:
             return user
 
-
 def create_account(accounts, number, name, amount):
     if amount < 0:
         print("\nОшибка, баланс не может быть отрицательным\n")
